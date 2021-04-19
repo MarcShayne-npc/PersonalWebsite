@@ -1,0 +1,513 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*==================HEADER============*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #101010;
+  font-family: "Orbitron";
+}
+.logo {
+  color: #33ff00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 23%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: #33ff00;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbutton {
+  display: none;
+}
+.navbutton div {
+  width: 40px;
+  height: 5px;
+  background-color: #33ff00;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+/*==================Content row #1================*/
+.Content_Row1 {
+  display: flex;
+  background-color: #201e1e;
+  text-align: center;
+  color: #33ff00;
+}
+.Column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 650px;
+  font-family: "Orbitron";
+}
+.Column1_img {
+  position: static;
+  width: 40%;
+  height: 50%;
+  margin-top: 15%; /* Half the height */
+}
+.Column1_h {
+  height: 5%;
+  margin-top: 23%; /* Half the height */
+  padding-bottom: 5%;
+}
+.Column1_txt {
+  width: 50%;
+  margin-top: 0; /* Half the height */
+  margin-left: 25%; /* Half the width */
+  font-size: 20px;
+}
+.Comment {
+  word-break: keep-all;
+}
+
+/*==========================Content row #2=============== */
+.Content_Row2 {
+  display: flex;
+  background-color: #1a1818;
+  text-align: center;
+  color: #33ff00;
+}
+.Column2 {
+  flex: 50%;
+  padding: 10px;
+  height: 650px;
+  font-family: "Orbitron";
+}
+.Column2_img {
+  position: static;
+  width: 60%;
+  height: 60%;
+  margin-top: 15%; /* Half the height */
+}
+.Column2_h {
+  width: 100%;
+  height: 0%;
+  margin-top: 23%; /* Half the height */
+  margin-left: 3%; /* Half the width */
+  padding-bottom: 5%;
+}
+.Column2_txt {
+  word-break: keep-all;
+  width: 50%;
+  height: 50%;
+  margin-top: 0; /* Half the height */
+  margin-left: 30%; /* Half the width */
+  font-size: 20px;
+}
+.Points {
+  text-align: left;
+  margin-top: -15%;
+  margin-left: 45%;
+}
+/*=======================================Home Page==========================*/
+.homebody {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.discordapp.com/attachments/353177091958767627/818072099716988928/796835.jpg);
+  background-color: #1a1818;
+}
+.intro {
+  background-color: #101010;
+  font-weight: bolder;
+  color: white;
+  font-family: "Orbitron";
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 15%;
+}
+.underline {
+  margin: auto;
+  width: 35%;
+  height: 4px;
+  background-color: white;
+}
+/*======================================Portfolio Page====================*/
+.Porfolio_Row1 {
+  display: flex;
+  background-color: #201e1e;
+  text-align: center;
+  color: #33ff00;
+}
+.Porfolio1 {
+  flex: 50%;
+  padding: 10px;
+  height: 650px;
+  font-family: "Orbitron";
+}
+.Porfolio1_img {
+  position: static;
+  width: 40%;
+  height: 50%;
+  margin-top: 15%; /* Half the height */
+  margin-left: 50%;
+}
+.Porfolio1_h {
+  height: 5%;
+  margin-top: 23%; /* Half the height */
+  padding-bottom: 5%;
+  margin-left: -50%;
+}
+.Porfolio1_txt {
+  width: 50%;
+  margin-top: 0; /* Half the height */
+  margin-left: 0%; /* Half the width */
+  font-size: 20px;
+}
+.Porfolio_Row2 {
+  display: flex;
+  background-color: #1a1818;
+  text-align: center;
+  color: #33ff00;
+}
+.Porfolio2 {
+  flex: 50%;
+  padding: 10px;
+  height: 650px;
+  font-family: "Orbitron";
+}
+/*=============================port2================*/
+.Porfolio2_img {
+  position: static;
+  margin-top: 10%; /* Half the height */
+  margin-left: -50%;
+}
+.Porfolio2_h {
+  width: 100%;
+  height: 0%;
+  margin-top: 23%; /* Half the height */
+  margin-left: 20%; /* Half the width */
+  padding-bottom: 5%;
+}
+.Porfolio2_txt {
+  word-break: keep-all;
+  width: 50%;
+  height: 50%;
+  margin-top: 0; /* Half the height */
+  margin-left: 43%; /* Half the width */
+  font-size: 20px;
+}
+/*==================Contact============*/
+.contactbody {
+  background-color: #1a1818;
+}
+.contact {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.contact div {
+  padding: 50px;
+}
+.contact a {
+  margin-left: 12%;
+}
+.fba {
+  margin-left: 25% !important;
+}
+.fb {
+  width: 200px;
+}
+.emaila {
+  margin-left: 8% !important;
+}
+.email {
+  width: 200px;
+}
+.phone {
+  width: 130px;
+}
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  /*============Header=============*/
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 82vh;
+    top: 8vh;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .navbutton {
+    display: block;
+    cursor: pointer;
+  }
+  /*============Row #1=============*/
+  .Content_Row1 {
+    display: block;
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Column1_img {
+    height: 50%;
+    width: auto;
+  }
+  .Column1 {
+    padding: 0%;
+  }
+  .Column1_h {
+    display: block;
+    margin-top: -20%;
+    padding-bottom: 10%;
+  }
+  .Column1_txt {
+    text-align: center;
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  /*============portfolio=========*/
+  .Porfolio_Row1 {
+    display: block;
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Porfolio1_img {
+    height: 50%;
+    width: auto;
+    margin-left: 0%;
+  }
+  .Porfolio1 {
+    padding: 0%;
+  }
+  .Porfolio1_h {
+    display: block;
+    margin-top: -20%;
+    margin-left: 5%;
+    padding-bottom: 10%;
+  }
+  .Porfolio1_txt {
+    text-align: center;
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  /*============portfolio2=========*/
+  .Porfolio_Row2 {
+    display: block;
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Porfolio2_img {
+    margin-top: -30%;
+    margin-left: 0%;
+    height: 50%;
+    width: auto;
+  }
+  .Porfolio2_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+    margin-left: 0%;
+  }
+  .Porfolio2_txt {
+    width: 90% !important;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  /*============Row #2=============*/
+  .Content_Row2 {
+    display: block;
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Column2_img {
+    margin-top: -30%;
+    margin-left: -5%;
+    height: 50%;
+    width: auto;
+  }
+  .Column2_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+  }
+  .Column2_txt {
+    width: 90% !important;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .Points {
+    display: block;
+    margin-top: -30%;
+    margin-left: 30%;
+  }
+  .intro {
+    margin-top: 40%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*============Header=============*/
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 82vh;
+    top: 8vh;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .navbutton {
+    display: block;
+    cursor: pointer;
+  }
+  /*============Row #1=============*/
+  .Column1_img {
+    height: 50%;
+    width: auto;
+  }
+  .Column1 {
+    padding: 5%;
+  }
+  .Column1_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+  }
+  .Column1_txt {
+    text-align: center;
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  /*============Row #2=============*/
+  .Content_Row2 {
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Column2_img {
+    margin-top: 30%;
+    margin-left: -5%;
+    height: 50%;
+    width: auto;
+  }
+  .Column2_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+  }
+  .Column2_txt {
+    width: 90% !important;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .Points {
+    display: block;
+    margin-top: -30%;
+    margin-left: 30%;
+  }
+  .intro {
+    margin-top: 25%;
+  }
+  /*=============portfolio2==============*/
+  .Porfolio2_Row2 {
+    margin: 0px 0;
+    overflow-x: hidden;
+  }
+  .Porfolio2_img {
+    margin-top: 10%;
+    margin-left: -5%;
+    height: 50%;
+    width: auto;
+  }
+  .Porfolio2_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+    margin-left: 0%;
+  }
+  .Porfolio2_txt {
+    width: 90% !important;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  /*=============portfoli1============*/
+  .Porfolio1_img {
+    height: 50%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .Porfolio1 {
+    padding: 5%;
+  }
+  .Porfolio1_h {
+    display: block;
+    margin-top: 30%;
+    padding-bottom: 10%;
+    margin-left: 0%;
+  }
+  .Porfolio1_txt {
+    text-align: center;
+    margin-left: 5%;
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .nav-links {
+    width: 30%;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-7px, -9px);
+}
